@@ -4,7 +4,7 @@ This project uses **Selenium WebDriver** and **Pytest** to perform automated UI 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Automated **signup** test with form interaction
 - Automated **login** test with validation
@@ -15,7 +15,7 @@ This project uses **Selenium WebDriver** and **Pytest** to perform automated UI 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [Python 3.x](https://www.python.org/)
 - [Pytest](https://docs.pytest.org/)
@@ -25,7 +25,7 @@ This project uses **Selenium WebDriver** and **Pytest** to perform automated UI 
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repo**  
    ```bash
@@ -38,6 +38,32 @@ This project uses **Selenium WebDriver** and **Pytest** to perform automated UI 
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install dependencies**
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+
+---
+
+## Usage
+Make sure your Django app is running locally at http://127.0.0.1:8000/.
+
+- Run tests with:
+   ```bash
+   pytest test_signup_login.py
+
+---
+
+📸 Screenshots for registration and login are saved automatically with timestamped filenames like:
+
+- registration_confirmation_user_20250730123115.png
+
+- login_confirmation_user_20250730123115.png
+
+Terminal output will also include:
+
+- User created
+
+- Date and time
+
+- Screenshot file names
+
 
